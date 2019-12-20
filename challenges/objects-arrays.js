@@ -26,7 +26,14 @@ const steg =
   period: 'Late Jurassic'
 };
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
-
+const velo =
+  {
+  name: 'velociraptor',
+  diet: 'carnivorous',
+  weight: '15kg',
+  length: '1.8m',
+  period: 'Late Cretaceous'
+};
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
