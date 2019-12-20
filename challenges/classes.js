@@ -27,3 +27,6 @@ class CubeMaker extends CuboidMaker{
         super(length, width, height)
     }
 }
+let CubeBoi = new CubeMaker(4, 3, 2);
+console.log(CubeBoi.volume());
+console.log(CubeBoi.surfaceArea());
